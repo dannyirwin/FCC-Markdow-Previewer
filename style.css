@@ -1,0 +1,32 @@
+:root {}
+
+body {
+
+}
+
+#editorContainer {
+	width: 100%;
+	background: blue;
+	padding: 10px;
+}
+
+#previewContainer {
+	width: 100%;
+	background: navy;
+	padding: 10px;
+}
+
+#editor {
+	width: 90%;
+	height: 30%;
+}
+
+#preview {
+	margin: 10px;
+	background: white;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}

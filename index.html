@@ -3,15 +3,31 @@
 
 <head>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>FCC Markdown Previewer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>FCC Markdown Previewer</title>
 
 </head>
 
+<body>
+	<div id="editorContainer">
+		<div id="editorTools"> Editor Tools Here</div>
+		<textarea id="editor"
+				  placeholder="Write your marddown text here."></textarea>
+	</div>
 
-    <script src="https: //cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
-    </script>
-    <script type="text/javascript" src="scripts.js"></script>
+	<div id="previewContainer">
+		<div id="previewTools">Preview Tools Here</div>
+		<div id="preview"></div>
+	</div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<script src="script.js"></script>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
 
 </body>
+
 </html>
